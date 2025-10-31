@@ -1,16 +1,21 @@
-# React + Vite
+# Kampüs Film Kulübü (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[cite_start]Bu proje, Süleyman Demirel Üniversitesi Film Kulübü için [cite: 3] React ve Vite kullanılarak geliştirilmiş bir dizi arama uygulamasıdır. [cite_start]Proje, [TVMaze API'sini] [cite: 24] [cite_start]kullanarak dizileri arar [cite: 26][cite_start], filtreler ve kullanıcıların "Gösterime Girecekler" listesi oluşturmasına olanak tanır[cite: 4, 34].
 
-Currently, two official plugins are available:
+## 🚀 Canlı Demo (Vercel)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Projenin canlı demosuna buradan ulaşabilirsiniz:
 
-## React Compiler
+**[https://kampus-film-kulubu-jet3.vercel.app/](https://kampus-film-kulubu-jet3.vercel.app/)**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Kullanılan Teknolojiler
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **React (Vite):** Modern bir JavaScript kütüphanesi ve hızlı geliştirme ortamı.
+* [cite_start]**React Hooks:** `useReducer` (state yönetimi için) [cite: 10][cite_start], `useEffect` (veri çekme için) [cite: 9] ve `useMemo` (filtreleme/sayfalama optimizasyonu için).
+* [cite_start]**React Router:** Detay sayfaları (`/show/:id`) arasında gezinme için[cite: 17].
+* [cite_start]**Axios:** [TVMaze API'sinden] [cite: 24] [cite_start]veri çekmek için kullanılan HTTP istemcisi[cite: 8].
+* **LocalStorage:** "Gösterime Girecekler" listesini sayfa yenilendiğinde kaybolmaması için tarayıcıda saklama.
+* **CSS:** Modern, duyarlı ve demo sitesine benzer bir arayüz tasarımı.
+
